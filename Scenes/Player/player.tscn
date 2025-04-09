@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccqrib5jmpysr"]
+
+[ext_resource type="Texture2D" uid="uid://5c5xjihhy4r5" path="res://Assets/Actor/Characters/Pig/SeparateAnim/Item.png" id="1_uvnfx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a3d8c"]
+radius = 7.0
+height = 16.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Item" type="Sprite2D" parent="."]
+texture = ExtResource("1_uvnfx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_a3d8c")
