@@ -797,3 +797,4 @@ tile_map_data = PackedByteArray("AAADAAQAAAAAAAIAAAAGAAQAAAAAAAIAAAAIAAUAAAAAAAI
 tile_set = SubResource("TileSet_oi8ly")
 
 [node name="SceneEntrance" parent="." instance=ExtResource("4_kr7le")]
+next_scene = "res://Scenes/DungeonScene/dungeon_scene.tscn"
