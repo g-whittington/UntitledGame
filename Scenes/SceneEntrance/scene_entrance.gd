@@ -12,10 +12,9 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-
 func _on_body_entered(body: Node2D) -> void:
-	get_tree().change_scene_to_file.call_deferred(next_scene)
-
+	if body is Player:
+		get_tree().change_scene_to_file.call_deferred(next_scene)
 
 func _on_body_exited(body: Node2D) -> void:
 	print("The body has exited me")
