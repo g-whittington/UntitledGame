@@ -476,5 +476,5 @@ tile_set = SubResource("TileSet_kr7le")
 
 [node name="Player" parent="." instance=ExtResource("1_2p8i2")]
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="Player"]
 zoom = Vector2(5, 5)
