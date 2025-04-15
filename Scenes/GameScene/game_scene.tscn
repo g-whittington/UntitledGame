@@ -798,7 +798,7 @@ y_sort_enabled = true
 [node name="Player" parent="YSort" instance=ExtResource("1_2p8i2")]
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
-zoom = Vector2(5, 5)
+zoom = Vector2(2.5, 2.5)
 
 [node name="ObstacleLayer" type="TileMapLayer" parent="YSort"]
 y_sort_enabled = true
