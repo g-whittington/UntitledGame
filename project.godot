@@ -10,10 +10,14 @@ config_version=5
 
 [application]
 
-config/name="Another Tutorial"
+config/name="UntitledGame"
 run/main_scene="uid://ej3vbwr32uwl"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+SceneManager="*res://Scenes/SceneManager/scene_manager.tscn"
 
 [file_customization]
 
